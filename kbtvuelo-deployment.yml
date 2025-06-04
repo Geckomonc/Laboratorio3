@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: kbtvuelo-app
-          image: kbtvuelo-app:latest
+          image: kbt-app:latest
           imagePullPolicy: Never
           ports:
             - containerPort: 8089
